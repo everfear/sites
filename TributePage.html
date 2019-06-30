@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tribute page</title>
+
+    <style>
+      #main {
+        display: block;
+        font-family: "Josefin Sans", sans-serif;
+        text-align: center;
+        border-radius: 10px;
+        margin: 30px 8px;
+        padding: 15px;
+        border-radius: 5px;
+        background: #eee;
+      }
+
+      #title h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+      }
+
+      #title p {
+        font-size: 25px;
+      }
+
+      #img-div {
+        background: white;
+        padding: 10px;
+        margin: 0;
+        border-radius: 10px;
+      }
+
+      #img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+
+      #img-caption {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      #tribute-info h3 {
+        font-size: 25px;
+        margin: 50px 0;
+        text-align: center;
+      }
+
+      #tribute-info ul {
+        max-width: 550px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 20px;
+      }
+
+      #tribute-info li {
+        margin: 16px 0;
+      }
+
+      #tribute-info p {
+        font-style: italic;
+        max-width: 545px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      #main h3{
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <header id="title">
+        <h1>Pavel Durov</h1>
+        <p>The man who fights for <strong>our</strong> internet freedom</p>
+      </header>
+      <figure id="img-div">
+        <img
+          id="img"
+          src="C:\Users\User\Desktop\htmlCssJavascript\TributePage\durov4.jpg"
+          alt="Pavel Durov photo"
+        />
+        <figcaption id="img-caption">Pavel Durov in 2019</figcaption>
+      </figure>
+      <article id="tribute-info">
+        <h3>Timeline of Pavel's life:</h3>
+        <ul>
+          <li><strong>1984</strong> - Born in Leningrad, USSR</li>
+          <li>
+            <strong>2001</strong> - Graduated from the Academic gymnasium with
+            honors
+          </li>
+          <li>
+            <strong>2006</strong> - Graduated from SPBU and created Vkontakte,
+            also known as VK
+          </li>
+          <li>
+            <strong>2007</strong> - Vkontakte becomes 3rd most popular site in
+            Russia, Pavel as a VK CEO was was recognized as one of the winners
+            in the contest "Best young entrepreneurs of 2007"
+          </li>
+          <li>
+            <strong>2008</strong> - Number of users VK exceeded up to 20 million
+          </li>
+          <li>
+            <strong>2011</strong> - Pavel, with a fortune of 7.9 billion rubles,
+            ranked 350th in the ranking of Russian billionaires
+          </li>
+          <li>
+            <strong>2012</strong> - Donated 1 million dollars to Wikipedia, site
+            "VK" becomes 26th most popular in the world
+          </li>
+          <li>
+            <strong>2013</strong> - In August 24th first client of new Pavel's
+            project Telegram was presented
+          </li>
+          <li>
+            <strong>2013</strong> - FSB start pressure on VK team, they wanted
+            personal information of people from Euromaidan groups from Ukraine.
+            Pavel rejected to provide any inforamtion and said that this is
+            illegal and crime
+          </li>
+          <li>
+            <strong>2014</strong> - Sold all his remaining VK actions to his
+            friend Ivan Tavrin. Pavel said "What you own, sooner or later begins
+            to own you."
+          </li>
+          <li>
+            <strong>2014</strong> - Leaves Russia, received citizenship of the
+            island state Federation of Saint Kitts and Nevis. Pavel said: "I'm
+            afraid there's no going back. Especially after I publicly refused to
+            cooperate with the authorities."
+          </li>
+          <li>
+            <strong>2016</strong> - New project Telegram reached more than 100
+            million users and delivers about 15 billion messages daily
+          </li>
+          <li>
+            <strong>2017</strong> - FSB start pressure on Telegram, they wanted
+            access to users data and encryption keys. Pavel rejected.
+          </li>
+          <li>
+            <strong>2018</strong> - Telegram was banned in Russia by
+            Roskomnadzor. However Pavel said that Telegram still will be online
+            and will work in Russia. Pavel said: "Threats to block Telegram if
+            we do not give out users private data will not lead to anything.
+            Telegram protects your freedom and privacy."
+          </li>
+          <li>
+            <strong>2018</strong> - Pavel was awarded the prize of the Union of
+            journalists of Kazakhstan for the principled position against
+            censorship and state interference in the free correspondence of
+            citizens on the Internet
+          </li>
+          <li>
+            <strong>2019</strong> - Pavel works hard to improve and keep
+            telegram independent. To be continued...
+          </li>
+        </ul>
+        <p>
+          "The best solution is the simplest. And vice versa." <br /><br />
+          -- Pavel Durov 2011
+        </p>
+      </article>
+      <h3>
+        Read more about greatest russian of 21th century
+        <a
+          id="tribute-link"
+          href="https://ru.wikipedia.org/wiki/%D0%94%D1%83%D1%80%D0%BE%D0%B2,_%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87"
+          target="_blank"
+          >here</a
+        >
+      </h3>
+    </main>
+  </body>
+</html>
